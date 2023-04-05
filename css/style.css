@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(222, 147, 234);
+}
+
+.main_box{
+    margin:auto;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    background-color: aqua;
+
+}
+.box_one {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+span{
+    background-color: black;
+    width: 100px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 6px;
+
+}
+
+h1{
+    margin-top: 10px;
+}
+
+p{
+    margin-top: 10px;
+}
+.box_two{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(236, 112, 112);
+}
+
+img{
+    height: 100%;
+   
+}
